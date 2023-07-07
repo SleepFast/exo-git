@@ -15,8 +15,8 @@ let myArray = [];
 for(let i = 0; i < 10; i++) {
   myArray.push(i);
 }
-myArray.forEach(() => {
-  console.log(`Pwet ${i} ${pouetable.pouet}`);
+myArray.forEach((index) => {
+  console.log(`Pwet ${index} ${pouetable.pouet}`);
 })
 
 root.render(
