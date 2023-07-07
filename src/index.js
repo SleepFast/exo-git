@@ -5,6 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let pouetable = {
+  azer : 'azer',
+  pouet : 'pouet',
+  etFranchement : 'Voila'
+}
+let myArray = [];
+for(let i = 0; i < 10; i++) {
+  myArray.push(i);
+}
+myArray.forEach(() => {
+  console.log(`Pwet ${i} ${pouetable.pouet}`);
+})
+
 root.render(
   <React.StrictMode>
     <App />
